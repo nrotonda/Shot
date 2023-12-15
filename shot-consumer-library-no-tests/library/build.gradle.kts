@@ -33,8 +33,8 @@ android {
     }
   }
   compileOptions {
-    targetCompatibility(libs.versions.java.get())
-    sourceCompatibility(libs.versions.java.get())
+    sourceCompatibility = JavaVersion.valueOf(libs.versions.java.get())
+    targetCompatibility = JavaVersion.valueOf(libs.versions.java.get())
   }
 }
 

@@ -17,7 +17,7 @@ android {
   }
 
   kotlinOptions {
-    jvmTarget = libs.versions.java.get()
+    jvmTarget = libs.versions.kotlinJvmTarget.get()
   }
 
   testOptions {

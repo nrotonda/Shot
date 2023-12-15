@@ -30,11 +30,11 @@ android {
         multiDexEnabled true
     }
     compileOptions {
-        sourceCompatibility libs.versions.java.get()
-        targetCompatibility libs.versions.java.get()
+        sourceCompatibility = JavaVersion.valueOf(libs.versions.java.get())
+        targetCompatibility = JavaVersion.valueOf(libs.versions.java.get())
     }
     kotlinOptions {
-        jvmTarget = libs.versions.java.get()
+        jvmTarget = libs.versions.kotlinJvmTarget.get()
     }
     testBuildType "customBuildType"
     buildTypes {
