@@ -72,3 +72,9 @@ dependencies {
     androidTestImplementation libs.mockito.kotlin
     androidTestImplementation libs.bundles.androidx.test
 }
+
+/*
+def check = "shot-android:generateMetadataFileForMavenPublication"
+if (tasks.getNames().contains(check)) {
+    tasks.named(check) {dependsOn "shot-android:androidSourcesJar" }
+}*/

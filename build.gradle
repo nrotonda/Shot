@@ -11,6 +11,9 @@ buildscript {
         classpath(libs.android.gradle.plugin)
         classpath(libs.kotlin.gradle.plugin)
         classpath(libs.ktlint.gradle.plugin)
-        classpath(libs.vanniktech.publish.gradle.plugin)
     }
+}
+
+plugins {
+    alias(libs.plugins.vanniktech.publish.gradle.plugin) apply false
 }
