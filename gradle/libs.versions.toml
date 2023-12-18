@@ -3,7 +3,7 @@ minsdk = "21"
 targetsdk = "33"
 java = "VERSION_17"
 kotlinJvmTarget = "17"
-shot = "1.1.4"
+shot = "0.0.2"
 
 android-build-tools = "8.2.0"
 androidx-activity-compose = "1.8.2"
@@ -109,7 +109,7 @@ kotlin-gradle-plugin = {module = "org.jetbrains.kotlin:kotlin-gradle-plugin", ve
 ktlint-gradle-plugin = {module = "org.jlleitschuh.gradle:ktlint-gradle", version = "12.0.3"}
 scalafmt-gradle-plugin = {module = "gradle.plugin.cz.alenkacz:gradle-scalafmt", version = "1.16.2"}
 scalatest-gradle-plugin = {module = "gradle.plugin.com.github.maiflai:gradle-scalatest", version = "0.32"}
-shot-gradle-plugin = {module = "com.github.nrotonda:shot", version.ref = "shot"}
+shot-gradle-plugin = { group = "com.github.nrotonda.shot", name = "shot", version.ref ="shot" }
 
 [plugins]
 vanniktech-publish-gradle-plugin = { id = "com.vanniktech.maven.publish", version.ref = "vanniktech-maven-publish" }
