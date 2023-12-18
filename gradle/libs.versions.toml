@@ -102,11 +102,11 @@ scrimage-scala = {module = "com.sksamuel.scrimage:scrimage-scala_2.13", version.
 skyiko-ktlint = {module = "com.github.shyiko:ktlint", version.ref = "skyiko-ktlint"}
 tinyzip = {module = "io.github.bitstorm:tinyzip-core", version.ref = "tinyzip"}
 
-android-apt-gradle-plugin = {module = "com.neenbedankt.gradle.plugins:android-apt", version = "1.7"}
+android-apt-gradle-plugin = {module = "com.neenbedankt.gradle.plugins:android-apt", version = "1.8"}
 android-gradle-plugin = {module = "com.android.tools.build:gradle", version.ref = "android-build-tools"}
-composer-gradle-plugin = {module = "com.trevjonez.composer:plugin", version = "1.0.0-rc08"}
+composer-gradle-plugin = {module = "com.trevjonez.composer:plugin", version = "1.0.0-rc09"}
 kotlin-gradle-plugin = {module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin"}
-ktlint-gradle-plugin = {module = "org.jlleitschuh.gradle:ktlint-gradle", version = "10.0.0"}
+ktlint-gradle-plugin = {module = "org.jlleitschuh.gradle:ktlint-gradle", version = "12.0.3"}
 scalafmt-gradle-plugin = {module = "gradle.plugin.cz.alenkacz:gradle-scalafmt", version = "1.16.2"}
 scalatest-gradle-plugin = {module = "gradle.plugin.com.github.maiflai:gradle-scalatest", version = "0.32"}
 shot-gradle-plugin = {module = "com.github.nrotonda:shot", version.ref = "shot"}
